@@ -42,7 +42,7 @@ android {
                 'clean'
     }
     defaultConfig {
-        minSdkVersion 8
+        minSdkVersion 14
         targetSdkVersion 22
         consumerProguardFiles 'consumer-proguard-rules.pro'
         buildConfigField 'String', 'NATIVE_LIBRARY_NAME', '"' + NATIVE_LIBRARY_NAME + '"'
